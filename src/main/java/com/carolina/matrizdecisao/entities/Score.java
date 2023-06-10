@@ -14,6 +14,6 @@ public class Score {
 
     @EmbeddedId
     private ScorePk id;
-    private Double value;
+    private Double absoluteValue;
 
 }
